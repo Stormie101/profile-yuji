@@ -15,7 +15,7 @@ body{
     color: #b20011;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-top: 2200px;
+    margin-top: 2600px;
     margin-bottom: 250px;
 }
 
@@ -170,11 +170,8 @@ body{
     margin-top: 200px;
     color: white;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-  }
-  
-  .mainthird{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .left {
@@ -248,5 +245,76 @@ body{
 
 .innerbox{
   background-color: #505050; /* Different color for top box */
+  font-weight: bold;
+  
+}
 
+a{
+  text-decoration: none;
+}
+
+#cte {
+  background-image: url(../IMAGE/closer\ than\ ever.jpg);
+}
+
+#tmw{
+  background-image: url(../IMAGE/tmw.jpg);
+  color: black;
+}
+
+#dl{
+  background-image: url(../IMAGE/dl.jpg);
+  color: black;
+}
+
+#para{
+  background-image: url(../IMAGE/para.jpg);
+  color: white;
+}
+
+#rew{
+  background-image: url(../IMAGE/rew.jpg);
+}
+
+#rs{
+  background-image: url(../IMAGE/rs.jpg);
+}
+
+#cac{
+  background-image: url(../IMAGE/cac.jpg);
+}
+
+#thi{
+  background-image: url(../IMAGE/thi.jpg);
+}
+
+.fourth p{
+  color: azure;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Full viewport height to center vertically */
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; /* Adjust width to the space between the two icons */
+  margin-top: 10px;
+}
+
+.contact-option img {
+  width: 50px;  /* Adjust size of icons */
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.contact-option img:hover {
+  transform: scale(1.1);  /* Enlarge icon on hover */
 }
